@@ -2,13 +2,18 @@
 
 > **Read-only archive of released versions of ernestdefoe/onair.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/onair) or the [upstream repository](https://github.com/ernestdefoe/onair).
 
-**0** versions archived · Latest: [`v0.1.5`](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.5) · License: `MIT` · Flarum: `^2.0`
+**6** versions archived · Latest: [`v0.1.5`](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.5) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2026-06-07 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.0) |
+| `v0.1.1` | 2026-06-08 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.1) |
+| `v0.1.2` | 2026-07-02 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.2) |
+| `v0.1.3` | 2026-07-02 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.3) |
+| `v0.1.4` | 2026-07-04 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.4) |
+| `v0.1.5` | 2026-10-05 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-onair/tree/archive/v0.1.5) |
 
 Catalog entry: [packages/ernestdefoe-onair.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-onair.json)
 
