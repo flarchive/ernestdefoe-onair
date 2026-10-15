@@ -1,0 +1,74 @@
+{
+    "name": "ernestdefoe/onair",
+    "description": "Live streaming for Flarum 2 — members go live via YouTube or Twitch, with a LIVE badge that follows their avatar everywhere.",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "live", "stream", "streaming", "youtube", "twitch", "broadcast"],
+    "homepage": "https://github.com/ernestdefoe/onair",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernestdefoe",
+            "email": "ernestdefoe@gmail.com"
+        }
+    ],
+    "support": {
+        "forum": "https://discuss.flarum.org/d/39390-onair-and-onair"
+    },
+    "require": {
+        "php": "^8.3",
+        "flarum/core": "^2.0"
+    },
+    "suggest": {
+        "flarum/realtime": "^1.0 — enables instant LIVE-badge push; OnAir transparently falls back to polling without it.",
+        "ernestdefoe/onair-plus": "OnAir+ add-on — built-in RTMP server (self-hosted or managed ingest), HLS playback, multistream, VOD, live chat and notifications."
+    },
+    "autoload": {
+        "psr-4": {
+            "Ernestdefoe\\OnAir\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ernestdefoe\\OnAir\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "OnAir",
+            "category": "feature",
+            "icon": {
+                "name": "fa-solid fa-tower-broadcast",
+                "backgroundColor": "#ff1f4b",
+                "color": "#fff"
+            }
+        },
+        "branch-alias": {
+            "dev-master": "0.1.x-dev",
+            "dev-main": "0.1.x-dev"
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "^2.0",
+        "flarum/realtime": "^2.0",
+        "flarum/testing": "^2.0"
+    },
+    "scripts": {
+        "test": [
+            "@test:integration"
+        ],
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php",
+        "analyse:phpstan": "phpstan analyse"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once.",
+        "analyse:phpstan": "Run static analysis"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
